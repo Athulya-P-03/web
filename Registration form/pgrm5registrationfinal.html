@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>registration</title>
+<style>
+th{text-align:start;}
+</style>
+</head>
+<body>
+<form action="pgrm5success.html">
+ <center>
+  <h2>Registration Form</h2>
+  <table border="0" align="center">
+    <tr> 
+       <th><label for="name">name</label></th>
+       <th>:</th>
+       <th><input type="text" placeholder="Enter your name"></th>
+    </tr>
+    <tr></tr>
+    <tr>
+       <th><label for="Email">Email</label></th>
+       <th>:</th>
+       <th><input type="text" placeholder="Email"></th>
+    </tr>
+    <tr>
+       <th><label for="Telephone">Telephone</label></th>
+       <th>:</th>
+       <th><input type="tel" placeholder="phone" pattern=""[789][0-9]{9}"></th>
+    </tr>
+    <tr></tr>
+    <tr>
+    <th><label for="Gender">Gender</label></th>
+    <th>:</th>
+    <th><label for="gender">Male</label><input type="radio" name="gender" value="male">
+        <label for="gender">Female</label><input type="radio" name="gender" value="female">
+    </th>
+    </tr>
+    <tr></tr>
+    <th><label for="Hobbies">Hobbies</label></th>
+    <th>:</th>
+    <th><label for="Hobbies">Reading</label><input type="checkbox" name="Hobbies" id="Reading">
+        <label for="Hobbies">Singing</label><input type="checkbox" name="Hobbies" id="Singing">
+        <label for="Hobbies">Dancing</label><input type="checkbox" name="Hobbies" id="Dancing">
+    </th>
+    </tr>
+    <tr></tr>
+    <tr>
+    <th><label for="Nationality">Nationality</label></th>
+    <th>:</th>
+    <th> 
+      <select id="nation" name="nation">
+      <option value="India">India</option>
+      <option value="Canada">Canada</option>
+      <option value="USA">USA</option>
+      </select>
+    </th>
+    </tr>
+    <tr></tr>
+    <tr> 
+    <th><input type="Submit"> <input type="Reset"></th>
+    </tr>
+  </table>
+ </center>
+</form>
+</body>
+</html>
